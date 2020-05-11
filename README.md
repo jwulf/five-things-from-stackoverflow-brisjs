@@ -1,4 +1,4 @@
-# five-things-from-stackoverflow-brisjs
+# Five Lessons from refactoring StackOverflow code that will make your JS coding journey 253% easier
 
 A repo to go with the BrisJS talk "_Five Lessons from refactoring StackOverflow code_" (video link coming soon...).
 
