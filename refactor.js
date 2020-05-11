@@ -1,11 +1,7 @@
 function getAttachmentsForBookWithMetadataArray(bookdata) {
   return Object.entries(bookdata)
-    .map(([fieldname, value]) =>
-      value.constructor === Array && value.length > 0
-        ? getAttachments(fieldname)
-        : undefined
-    )
-    .filter((e) => !!e);
+    .filter(([_, value]) => value.constructor === Array && value.length > 0)
+    .map(([fieldname, _]) => getAttachments(fieldname));
 }
 
 function getAttachmentsForBook(book) {
