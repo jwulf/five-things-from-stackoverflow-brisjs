@@ -1,6 +1,6 @@
 # five-things-from-stackoverflow-brisjs
 
-A repo to go with the BrisJS talk "_Five Lessons from refactoring StackOverflow code_"
+A repo to go with the BrisJS talk "_Five Lessons from refactoring StackOverflow code_" (video link coming soon...).
 
 ## Background
 
