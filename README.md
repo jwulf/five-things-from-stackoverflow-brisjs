@@ -1,6 +1,6 @@
 # Five Lessons from refactoring StackOverflow code that will make your JS coding journey 253% easier
 
-A repo to go with the BrisJS talk "_Five Lessons from refactoring StackOverflow code_" (video link coming soon...).
+A repo to go with the BrisJS talk "_Five Lessons from refactoring StackOverflow code_" ([video link](https://youtu.be/rLzljZmdBNM?t=3075)).
 
 ## Background
 
