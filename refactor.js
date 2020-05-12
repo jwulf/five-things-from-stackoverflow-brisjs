@@ -1,9 +1,13 @@
 // For a discussion on dealing with failures, see this article:
 // https://www.joshwulf.com/blog/2020/03/array-async-failure/
 
+function isArrayWithElements(value) {
+  return value.constructor === Array && value.length > 0;
+}
+
 function getAttachmentsForBookWithMetadataArray(bookdata) {
   return Object.entries(bookdata)
-    .filter(([_, value]) => value.constructor === Array && value.length > 0)
+    .filter(([_, value]) => isArrayWithElements(value))
     .map(([fieldname, _]) => getAttachments(fieldname));
 }
 
